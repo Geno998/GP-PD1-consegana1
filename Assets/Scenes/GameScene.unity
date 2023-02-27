@@ -8334,7 +8334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2044848a107fee4cbc872af4591763e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   moveX: 0
   moveY: 0
   moveDir: {x: 0, y: 0}
@@ -8459,6 +8459,7 @@ MonoBehaviour:
   ship: {fileID: 587438260}
   explosionAudio: {fileID: 8300000, guid: 4ff5750bd57116a4ea48f8ea2b9044c5, type: 3}
   hitAudio: {fileID: 8300000, guid: 57d8ff6efd2b5d348ab5d5f75f1b0233, type: 3}
+  collect: {fileID: 8300000, guid: 24f97e321af50fd4c9db61248d8851ad, type: 3}
 --- !u!82 &1398823548
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10474,6 +10475,8 @@ MonoBehaviour:
   waveText: {fileID: 1034481032}
   uI: {fileID: 341794867}
   PauseMenu: {fileID: 1065524483}
+  info: {fileID: 0}
+  mainMenu: {fileID: 0}
   minutes: 3
   seconds: 0
   globalTime: 0

@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     AudioSource audio;
     [SerializeField] AudioClip explosionAudio;
     [SerializeField] AudioClip hitAudio;
+    [SerializeField] AudioClip collect;
 
     private void Awake()
     {
@@ -63,6 +64,7 @@ public class Player : MonoBehaviour
                 Destroy(collision.gameObject);
                 if(hp < maxHp)
                 {
+                    audio.PlayOneShot(collect, 0.5f);
                     hp++;
                 }
             }

@@ -3923,7 +3923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'cHARGED SHOT:'
+  m_text: 'CHARGED SHOT:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 028d6169d8c8ee443b4b2ef99a49299f, type: 2}
   m_sharedMaterial: {fileID: 6549247535049164144, guid: 028d6169d8c8ee443b4b2ef99a49299f, type: 2}
